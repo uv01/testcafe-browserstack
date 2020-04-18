@@ -19,10 +19,9 @@ The default branch is develop, so branch off that with a branch for your feature
 2. For local : node testrunner_local.js
 3. For jenkins/Codeship : node testrunner_browserStack.js
 
-## Next steps:
-- Add more test scenarios for testing, identify the candidates to be automated
-- Develop data reconcilation tests
-- Develop Mobile device tests
+## How to run tests?
+- Go to the root of the framework
+- node -r esm runners/testrunner_bs_chrome.js
 
 
 ## Best practises:
