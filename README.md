@@ -26,9 +26,6 @@ BROWSERSTACK_USERNAME = "xxxxx"
 BROWSERSTACK_ACCESS_KEY = "xxxxxxxxxxx"
 BROWSERSTACK_PASSWORD = xxxxxxxx
 
-## How to run tests?
-- Go to the root of the framework
-
 ## Best practises:
 -	Use page object model
 - create the reusable functions(page actions) in the page object file
