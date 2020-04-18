@@ -1,0 +1,8 @@
+{
+    "screenshotPath" : "screenshots",
+    "takeScreenshotsOnFails": true,
+    "screenshotPathPattern": "${DATE}_${TIME}_${USERAGENT}${TEST}.png",
+    "selectorTimeout": 30000,
+    "assertionTimeout": 30000,
+    "skipJsErrors": true
+}
