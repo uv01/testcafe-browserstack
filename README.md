@@ -1,5 +1,5 @@
 # acuit-testcafe
-This is the automation framework to run the UI tests for CFC and NextHub
+This is the automation framework to run the UI tests
 
 ## Tools used to develop the framework:
 1. TestCafe
