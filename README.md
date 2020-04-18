@@ -16,13 +16,18 @@ The default branch is develop, so branch off that with a branch for your feature
 
 ## Steps to run the tests from Continuous Integration and local:
 1. npm install
-2. For local : node testrunner_local.js
-3. For jenkins/Codeship : node testrunner_browserStack.js
+2. For local : node -r esm runners/testrunner_local.js
+3. For jenkins/Codeship : node -r esm runners/testrunner_bs_chrome.js
+
+## Set up for browserStack
+- Create a .env file in the root
+- Add following env variables
+BROWSERSTACK_USERNAME = "xxxxx"
+BROWSERSTACK_ACCESS_KEY = "xxxxxxxxxxx"
+BROWSERSTACK_PASSWORD = xxxxxxxx
 
 ## How to run tests?
 - Go to the root of the framework
-- node -r esm runners/testrunner_bs_chrome.js
-
 
 ## Best practises:
 -	Use page object model
